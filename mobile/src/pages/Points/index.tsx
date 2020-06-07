@@ -4,7 +4,7 @@ import { Feather as Icon } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { StyleSheet, Text, Image, View, TouchableOpacity, ScrollView, Alert } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import { SvgUri } from 'react-native-svg';
+import { SvgUri, ClipPath } from 'react-native-svg';
 import * as Location from 'expo-location';
 import api from '../../services/api';
 
@@ -158,7 +158,7 @@ const Points = () => {
               onPress={() => handleSelectItem(item.id)}
               activeOpacity={0.6}
             >
-              <SvgUri width={42} height={42} uri={item.image_url} />
+              <SvgUri width={36} height={36} uri={item.image_url} />
               <Text style={styles.itemTitle}>{item.title}</Text>
             </TouchableOpacity>
           ))}
@@ -210,12 +210,12 @@ const styles = StyleSheet.create({
 
   mapMarkerContainer: {
     width: 90,
-    height: 70,
+    height: 77,
     backgroundColor: '#34CB79',
     flexDirection: 'column',
     borderRadius: 8,
     overflow: 'hidden',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 
   mapMarkerImage: {
@@ -246,8 +246,8 @@ const styles = StyleSheet.create({
     width: 108,
     borderRadius: 8,
     paddingHorizontal: 16,
-    paddingTop: 20,
-    paddingBottom: 16,
+    paddingTop: 16,
+    paddingBottom: 12,
     marginRight: 8,
     alignItems: 'center',
     justifyContent: 'space-between',

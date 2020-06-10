@@ -3,10 +3,12 @@
 </h1>
 
 <p align="center">
-  <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-web">Web</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-como-configurar-e-executar">Como configurar e executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contribuicoes">Contribuições</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#punch-contribuição">Contribuição</a>
 </p>
 
 <br/>
@@ -25,18 +27,33 @@
 
 <br/>
 
-<h3>
-  <img alt="ecoleta" title="github_explorer" src=".github/capa.png" width="72.9%" />
-  <img alt="ecoleta" title="github_explorer" src=".github/mobile.gif" width="26.3%" />
+<h3 align="center">
+  <img alt="ecoleta" title="github_explorer" src=".github/capa.png" />
 </h3>
 
 <br/>
 
 
-## :computer: Sobre
+## :page_facing_up: Sobre
 O Ecoleta é um marketplace de coleta de resíduos, com o objetivo de auxiliar os usuários a encontrarem pontos de descarte destes materiais, os pontos são cadastrado na interface Web e a busca é realizada pelo aplicativo Mobile, onde os pontos são mostrados no mapa. 
 
 Esse projeto foi desenvolvido durante a Next Level Week, ministrado pela [Rocketseat](https://rocketseat.com.br/).
+
+<br/>
+
+## :computer: Web
+
+<h3 align="center">
+  <img alt="ecoleta" title="github_explorer" src=".github/web.gif" />
+</h3>
+
+<br/>
+
+## :iphone: Mobile
+
+<h3 align="center">
+  <img alt="ecoleta" title="github_explorer" src=".github/mobile.gif" />
+</h3>
 
 <br/>
 
@@ -51,7 +68,7 @@ Esse projeto foi desenvolvido durante a Next Level Week, ministrado pela [Rocket
 
 ## :gear: Como configurar e executar
 
-- ### **Pré-requisitos**
+### Pré-requisitos
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina.
   - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.

@@ -87,6 +87,7 @@ const Home = () => {
               onValueChange={value => (setUf(value))}
               placeholder={{label: "Digite a UF", value: null}}
               items= {ufs}
+              doneText='Pronto'
           />
 
           <PickerSelect
@@ -94,6 +95,7 @@ const Home = () => {
               onValueChange={value => (setCity(value))}
               placeholder={{label: "Digite a cidade", value: null}}
               items= {cities}
+              doneText='Pronto'
           />
 
           {/* <TextInput 

@@ -136,6 +136,7 @@ const Points = () => {
                     <Image style={styles.mapMarkerImage} source={{uri: point.image_url}} />
                     <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                   </View>
+                  <View style={styles.mapPin}></View>
                 </Marker>
               ))}
             </MapView>
@@ -210,12 +211,23 @@ const styles = StyleSheet.create({
 
   mapMarkerContainer: {
     width: 90,
-    height: 77,
+    height: 70,
     backgroundColor: '#34CB79',
     flexDirection: 'column',
     borderRadius: 8,
     overflow: 'hidden',
     alignItems: 'center',
+  },
+
+  mapPin: {
+    width: 10,
+    borderColor: 'transparent',
+    borderTopColor: '#34CB79',
+    borderWidth: 5,
+    borderTopWidth: 10,
+    position: 'absolute',
+    top: 69,
+    left: 40,
   },
 
   mapMarkerImage: {
